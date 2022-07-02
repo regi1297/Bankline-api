@@ -1,7 +1,7 @@
 package com.dio.santander.bankline.api.model;
 
-import javax.persistence.Embedded;
 import javax.persistence.Column;
+import javax.persistence.Embedded;
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
@@ -30,7 +30,6 @@ public class Correntista {
 	public void setConta(Conta conta) {
 		this.conta = conta;
 	}
-	
 	public Integer getId() {
 		return id;
 	}
@@ -49,5 +48,6 @@ public class Correntista {
 	public void setNome(String nome) {
 		this.nome = nome;
 	}
+	
 	
 }
